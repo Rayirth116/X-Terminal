@@ -1,7 +1,7 @@
-description = "This command remove the selected file in the cwd(current working directory)"
+description = "This command removes the selected files"
 usage = [
-        "rm 'name(withext)'. Here it will delete this file",
-        "'rm file.txt'. Here it will delete this file.txt"
+        "rm FILANME: Deletes FILNAME",
+        "rm file.txt: Erases file.txt"
         ]
 
 import os

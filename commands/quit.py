@@ -1,5 +1,5 @@
-description = "Quits the terminal"
-usage = ["'quit'. The terminal will stop and close"]
+description = "Quits the shell"
+usage = ["'quit': The shell will stop and close"]
 
 import time
 from sys import exit

@@ -1,7 +1,7 @@
-description = "This command deletes directory(folder)"
+description = "This command removes the given directory"
 usage = [
-        "rmdir 'name od dir'. Here it will delete the directory which is selected by the user",
-        "'rmdir Test'. Here it will delete the directory selected"
+        "rmdir DIR_NAME: Deletes DIR_NAME",
+        "rmdir Test: Here it will delete the directory selected"
         ]
 
 

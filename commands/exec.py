@@ -1,7 +1,7 @@
-description = "This command executes the command typed after it divided by a space"
+description = "Invoke system shell (CMD, POWERSHELL, SH etc..) to execute the provided command"
 usage = [
-        "exec 'command'. It executes the command types after it.",
-        "'exec echo'. The terminal executes echo function."
+        "exec COMMAND: Executes COMMAND using the system shell",
+        "exec firefox: Runs firefox using the system shell"
         ]
 
 import os

@@ -1,7 +1,7 @@
-description = "This command show to information typed inside a file"
+description = "This command prints out the content of a given file"
 usage = [
-        "read 'file name(with ext)'. It prints the charecters present in it.",
-        "'read file.txt' If we type this command the Terminal prints the data present in it."
+        "read FILANME: Output the content of FILNAME",
+        "read file.txt: Prints the content of file.txt"
         ]
 
 import os

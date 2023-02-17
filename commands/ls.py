@@ -1,5 +1,5 @@
-description = "This commands shows the list of files in cwd(current working directory)"
-usage = ["'ls'. It shows all the files and folders in the cwd(current workinf directory)"]
+description = "This commands lists all files and directories in the selected directory (default is current working one)"
+usage = ["ls ..: Lists all files in the parrent directory"]
 
 from colorama import Fore
 import os

@@ -1,7 +1,7 @@
-description = "This command will repeat the user input"
+description = "Prints the given text to the terminal"
 usage = [
-        "echo 'message'. The output will be the message typed.",
-        "echo Hello. The output will be Hello."
+        "echo MESSAGE: Outputs MESSAGE to the screen",
+        "echo Hello: Prints Hello"
         ]
 # must have
 def run(args: str, ro_path:str):

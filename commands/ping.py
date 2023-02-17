@@ -1,7 +1,7 @@
-description = "This command is used to check the ping of the the website mentioned"
+description = "This command is used to probe an IP address"
 usage = [
-        "ping 'website'. It shows the ping of the website mentioned",
-        "'ping google.com'. It shows the ping of google"
+        "ping IPV4: Probes the provided IPV4 address",
+        "ping google.com: Check if you can reach google"
         ]
 
 # must have

@@ -1,7 +1,7 @@
-description = "This command searches for an existing file in the cwd(current working directory)"
+description = "This command searches for a given file in the current working directory"
 usage = [
-        "search 'name(with ext)'. Here it shows the path of the searched file",
-        "'search file.txt'. Here it shows the path of the file 'file.txt'"
+        "search FILENAME: Searches for a file named FILENAME in the current directy",
+        "search file.txt: Prints the path for the file.txt file (if exists)"
         ]
 
 

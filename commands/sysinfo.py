@@ -1,4 +1,4 @@
-description = "This command details your system and few of it specs(specifics)"
+description = "This command prints some system related informations"
 usage = []
 
 from colorama import Fore, Style

@@ -1,5 +1,5 @@
-description = "This command renames the file which you selected"
-usage = ["Rename 'file(with extension)'. Here it will rename the file with user input"]
+description = "This command renames a given file"
+usage = ["Rename FILENAME NEW_FILENAME: Renames FILENAME to NEW_FILENAME"]
 
 import os
 

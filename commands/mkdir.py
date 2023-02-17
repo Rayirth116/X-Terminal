@@ -1,8 +1,8 @@
-description = "This command creates new directory(folder)."
+description = "This command creates a new directory (folder)."
 
 usage = [
-        "mkdir 'name'. Here it will create a directory named the name given by the user",
-        "mkdir Test. Here it will create a directory named Test"
+        "mkdir NAME: Creates the directory NAME",
+        "mkdir: Asks for the name of the directory to create"
         ]
 
 import os

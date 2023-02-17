@@ -1,5 +1,5 @@
 description = "This command clears the entire screen"
-usage = ["'clear'. If we type this command the terminal clears everything on the screen"]
+usage = ["clear: Clears the screen"]
 
 # must have
 import os

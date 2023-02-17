@@ -1,7 +1,7 @@
-description = "This command is used to create files in the selected dir"
+description = "This command creates a file with a given filename"
 usage = [
-        "create 'name(with ext)'. Here it will create a file in the cwd(current working directory) name given in the user input",
-        "'create file.txt'. Here it will create a file named file.txt on the cwd"
+        "create FILENAME: Creates a file named FILENAME",
+        "create file.txt: Creates a file named file.txt in your current working directory"
         ]
 # must have
 import os

@@ -8,10 +8,11 @@ def run(args: str, ro_path):
     path = ro_path
     if len(args.split(" ")) > 1:
         path = " ".join(args.split(" ")[1:])
-
-    for files in os.listdir(path):
-        print(Fore.CYAN + '-' + files)
-
+    try:
+        for files in os.listdir(path):
+            print(Fore.CYAN + '-' + files)
+    except:
+        print("Can't list directory: "+path)
 
 # must have
 def constructor():

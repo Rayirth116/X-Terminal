@@ -11,8 +11,8 @@ path = os.getcwd()
 os.chdir(path)
 
 help_menu = f"""
-{Fore.RED}pyterminal{Fore.RESET} version {Fore.BLUE}0.0.1{Fore.RESET}
-{Fore.RED}pyterminal{Fore.RESET} is a terminal (shell) written in pure {Fore.BLUE}python{Fore.RESET}.
+{Fore.RED}PY-SHELL{Fore.RESET} version {Fore.BLUE}0.0.1{Fore.RESET}
+{Fore.RED}PY-SHELL{Fore.RESET} is a terminal (shell) written in pure {Fore.BLUE}python{Fore.RESET}.
 
 {Fore.RED}COMMANDS{Fore.RESET}:"""
 
@@ -78,7 +78,7 @@ def process_user_input():
 
             requested_cmd_help = args[1]
             if not requested_cmd_help in commands_names:
-                print(f"pyterminal: no available help for {requested_cmd_help}")
+                print(f"py-shell: no available help for {requested_cmd_help}")
                 continue
 
             index = commands_names.index(requested_cmd_help)
@@ -117,7 +117,7 @@ def process_user_input():
             continue
 
         else:
-            print(f"pyterminal: {user_input}: commmand not found")
+            print(f"py-shell: {user_input}: commmand not found")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,8 @@
 A simple shell (command prompt) made in python featuring a command handler.
 
 ## Requirements
-- Python3
+- Note: Python will be automatically downloaded by Rye
+- [Rye](github.com/mitsuhiko/rye)
 
 ## Compatibility
 Works and was tested on the following environments:
@@ -14,7 +15,8 @@ Not that it should work under MACOS too but wasn't tested
 ## Install
 1) Clone using git (or download zip using the green button): `git clone https://github.com/0x454d505459/Py-Shell`
 2) Change directory to Py-Shell: `cd Py-Shell`
-3) Run shell.py `python3 shell.py`
+3) Install the requirements using Rye: `rye sync`
+4) Run shell.py `rye run python shell.py`
 
 ## Adding commands
 ### Adding external commands

@@ -13,7 +13,7 @@ Works and was tested on the following environments:
 Not that it should work under MACOS too but wasn't tested
 
 ## Install
-1) Clone using git (or download zip using the green button): `git clone https://github.com/0x454d505459/Py-Shell`
+1) Clone using git (or download zip using the green button): `git clone https://github.com/Rayirth-116/X-Terminal`
 2) Change directory to Py-Shell: `cd Py-Shell`
 3) Install the requirements using Rye: `rye sync`
 4) Run shell.py `rye run python shell.py`
@@ -34,4 +34,4 @@ Not that it should work under MACOS too but wasn't tested
 - All imports should be outside of the run function
 
 ## Licensing
-All commits made by Me ([0x454d505459](https://github.com/0x454d505459)) fall under GPLv3 and Later licenses. For other commits please contact their commiters.
+This project was originally created by [ME](https://github.com/Rayirth-116) and includes contributions from multiple collaborators; licensed under GPLv3 or later.

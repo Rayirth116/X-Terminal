@@ -64,7 +64,7 @@ def process_user_input():
         if requested_cmd in ["", " "]:
             continue
 
-        # check if the requested commands is in an external file
+        # check if the requested commands is in an external file.
         if requested_cmd in commands_names:
             index = commands_names.index(requested_cmd)
             commands[index]["exec"](user_input, path)
@@ -127,3 +127,4 @@ if __name__ == "__main__":
 
     print(f"""{Fore.RED}help{Fore.RESET}: Type 'help' to get a list of all commands available! """)
     process_user_input()
+    

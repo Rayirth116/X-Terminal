@@ -34,4 +34,4 @@ Not that it should work under MACOS too but wasn't tested
 - All imports should be outside of the run function
 
 ## Licensing
-This project was originally created by [ME](https://github.com/Rayirth-116) and includes contributions from multiple collaborators; licensed under GPLv3 or later.
+This project was originally created by [Rayirth](https://github.com/Rayirth116) and includes contributions from multiple collaborators; licensed under GPLv3 or later.

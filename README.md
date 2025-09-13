@@ -10,11 +10,11 @@ Works and was tested on the following environments:
 - Windows
 - Linux
 
-Not that it should work under MACOS too but wasn't tested
+Note that it should work under MACOS too but wasn't tested
 
 ## Install
 1) Clone using git (or download zip using the green button): `git clone https://github.com/Rayirth116/X-Terminal`
-2) Change directory to Py-Shell: `cd Py-Shell`
+2) Change directory to X-Terminal: `cd X-Terminal`
 3) Install the requirements using Rye: `rye sync`
 4) Run shell.py `rye run python shell.py`
 

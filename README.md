@@ -34,4 +34,8 @@ Note that it should work under MACOS too but wasn't tested
 - All imports should be outside of the run function
 
 ## Licensing
-This project was originally created by [Rayirth](https://github.com/Rayirth116) and includes contributions from multiple collaborators; licensed under GPLv3 or later.
+
+This project was started by [Rayirth](https://github.com/Rayirth116) and has been built collectively by multiple contributors, each making important additions.  
+All ownership and rights to the repository and its code are retained by Rayirth, regardless of contribution size.  
+Licensed under the **GPLv3 or later**.
+

@@ -1,4 +1,4 @@
-# Py-Shell
+# X-Terminal
 A simple shell (command prompt) made in python featuring a command handler.
 
 ## Requirements

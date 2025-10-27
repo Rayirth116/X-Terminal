@@ -11,8 +11,8 @@ path = os.getcwd()
 os.chdir(path)
 
 help_menu = f"""
-{Fore.RED}PY-SHELL{Fore.RESET} version {Fore.BLUE}0.0.1{Fore.RESET}
-{Fore.RED}PY-SHELL{Fore.RESET} is a terminal (shell) written in pure {Fore.BLUE}python{Fore.RESET}.
+{Fore.RED}X-Terminal{Fore.RESET} version {Fore.BLUE}0.0.1{Fore.RESET}
+{Fore.RED}X-Terminal{Fore.RESET} is a terminal (shell) written in pure {Fore.BLUE}python{Fore.RESET}.
 
 {Fore.RED}COMMANDS{Fore.RESET}:"""
 
@@ -26,8 +26,8 @@ def register_help(calls, desc):
 
 
 def print_banner():
-    print(f"{Fore.BLACK}{Back.RED}P{Back.YELLOW}y{Back.GREEN}t{Back.BLUE}e{Back.MAGENTA}r{Back.RED}m{Back.YELLOW}i{Back.GREEN}n{Back.BLUE}a{Back.MAGENTA}l{Back.RESET}{Fore.RESET}")
-    print(f"{Fore.LIGHTYELLOW_EX}{Style.BRIGHT}Credits: {Fore.BLUE}{Style.BRIGHT}Chaitanya, Rayirth, Dart, Empty{Back.RESET}{Fore.RESET}")
+    print(f"{Fore.BLACK}{Back.RED}X{Back.YELLOW}-{Back.GREEN}t{Back.BLUE}e{Back.MAGENTA}r{Back.RED}m{Back.YELLOW}i{Back.GREEN}n{Back.BLUE}a{Back.MAGENTA}l{Back.RESET}{Fore.RESET}")
+    print(f"{Fore.LIGHTYELLOW_EX}{Style.BRIGHT}Credits: {Fore.BLUE}{Style.BRIGHT}Rayirth, Chaitanya, Dart, Empty{Back.RESET}{Fore.RESET}")
 
 
 def load_commands():

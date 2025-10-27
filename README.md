@@ -35,7 +35,8 @@ Note that it should work under MACOS too but wasn't tested
 
 ## Licensing
 
-This project was started by [Rayirth](https://github.com/Rayirth116) and has been built collectively by multiple contributors, each making important additions.  
-All ownership and rights to the repository and its code are retained by Rayirth, regardless of contribution size.  
-Licensed under the **GPLv3 or later**.
+This project was founded by [Rayirth](https://github.com/Rayirth116) (Project Lead) and [Chaitanya](https://github.com/Chaitanya00Kumar), who contributed to the core and foundational structure of the code. Over time, the project has grown through the valuable efforts of multiple contributors, including [0x4c756e61](https://github.com/0x4c756e61), who provided major contributions, and Dart, who has supported the project through additional development work.
+
+All ownership and rights to the repository and its code are retained by Rayirth as the project lead, regardless of contribution size.  
+This project is open source and licensed under the **GNU General Public License v3.0 or later (GPLv3+)**.
 
